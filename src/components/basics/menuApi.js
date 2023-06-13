@@ -85,7 +85,34 @@ const Menu = [
         id: 10,
         image: "../images/samosa.jpg",
         name: "Biryani",
-        category: "Chef Specical",
+        category: "Chef Specical4",
+        price: "100₹",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+      },
+      {
+        id: 11,
+        image: "../images/samosa.jpg",
+        name: "Biryani",
+        category: "Chef Specical3",
+        price: "100₹",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+      },
+      {
+        id: 12,
+        image: "../images/samosa.jpg",
+        name: "Biryani",
+        category: "Chef Specical2",
+        price: "100₹",
+        description:
+          "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
+      }, 
+      {
+        id: 13,
+        image: "../images/samosa.jpg",
+        name: "Biryani",
+        category: "Chef Specical111",
         price: "100₹",
         description:
           "Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis, at consectetur totam voluptatibus quibusdam iusto. Accusamus quas, soluta ipsam autem eius necessitatibus fugiat in . ",
