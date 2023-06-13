@@ -8,7 +8,7 @@ const Food = () => {
         return currenEle.category ;
     })), "All"];
     const [menuData, setMenuData] = useState(Menu);
-    const [category, setCategoryData] = useState(categoryData);
+    // const [category, setCategoryData] = useState(categoryData);
     const filerCategory = (event) => {
         if (event.target.value.toLocaleLowerCase() === String("All").toLocaleLowerCase()) {
             setMenuData(Menu);
@@ -23,7 +23,7 @@ const Food = () => {
         <div>
             <nav className='navbar '>
                 <div className='btn-group'>
-                    {category.map((currentCtgry, index) => {
+                    {categoryData.map((currentCtgry, index) => {
                         return (
                             <button key={index} onClick={filerCategory} value={currentCtgry} className='btn-group__item'>{currentCtgry}</button>
                         )
