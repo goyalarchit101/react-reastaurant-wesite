@@ -29,17 +29,28 @@ const Todo = () => {
             setInputData("");
         }
     }
-    const editGivenItem = ()=>{
-        const obj = items.find(x => x.id === editId);
-        if (obj) {
-          obj.name = inputData;
-        }
-        forceUpdate();
+    const editGivenItem = () => {
+        setItems(
+            items.map((curele) => {
+                if (curele.id === editId) {
+                    return { ...curele, name: inputData }
+                }
+                else
+                    return curele;
+            })
+        );
+
+        // const obj = items.find(x => x.id === editId);
+        // if (obj) {
+        //   obj.name = inputData;
+        // }
+        // forceUpdate();
     }
+
     const editItem = (id) => {
         setToggle(true);
         const editItem = items.find((currenEle) => {
-             return currenEle.id === id;
+            return currenEle.id === id;
         })
         setEditId(editItem.id);
         setInputData(editItem.name);

@@ -3,6 +3,7 @@ import UseState from "./components/hooks/useState";
 import UseEffect from './components/hooks/useEffect'
 import UseReducer from "./components/hooks/useReducer";
 import Todo from "./components/todoreact/todo";
+import Temp from "./components/weather/temp";
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         {/* <UseState/> */}
         {/* <UseEffect/> */}
         {/* <UseReducer/> */}
-        <Todo/>
+        {/* <Todo/> */}
+        <Temp/>
     </div>  
   );
 }
